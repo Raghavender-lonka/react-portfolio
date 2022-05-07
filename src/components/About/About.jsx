@@ -77,7 +77,7 @@ export default function About() {
           </div>
         </div>
 
-        <img src={AboutImg} alt="About me" />
+        <img src={AboutImg} alt="About me" className="about-me" />
       </div>
       <div className="footerLogo2">
         {showTopBtn && (

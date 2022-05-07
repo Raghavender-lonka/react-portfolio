@@ -46,3 +46,20 @@
 .certificatesContainer div a:hover {
   text-decoration: underline;
 }
+
+@media all and (max-width: 480px) {
+  .certificatesContainer div {
+    width: 100%;
+    padding: 5%;
+  }
+  .certificatesContainer div h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .education br {
+    display: none;
+  }
+  .education {
+    margin-bottom: 5vh;
+  }
+}

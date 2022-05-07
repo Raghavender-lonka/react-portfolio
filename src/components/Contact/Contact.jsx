@@ -22,7 +22,11 @@ export default function Contact() {
         </button>
       </div>
       <div className="contactLinks">
-        <a href="mailto:raghavenderreddylonka.1@gmail.com" target="_blank">
+        <a
+          href="mailto:raghavenderreddylonka.1@gmail.com"
+          target="_blank"
+          rel="noreferrer"
+        >
           <i className="fa-solid fa-envelope"></i>
         </a>
         <a
@@ -31,10 +35,18 @@ export default function Contact() {
         >
           <i className="fa-brands fa-linkedin"></i>
         </a>
-        <a href="https://twitter.com/raghurag00" target="_blank">
+        <a
+          href="https://twitter.com/raghurag00"
+          target="_blank"
+          rel="noreferrer"
+        >
           <i className="fa-brands fa-twitter"></i>
         </a>
-        <a href="https://github.com/Raghavender-lonka" target="_blank">
+        <a
+          href="https://github.com/Raghavender-lonka"
+          target="_blank"
+          rel="noreferrer"
+        >
           <i className="fa-brands fa-github"></i>
         </a>
         <a href="tel:+918466001825">
@@ -44,6 +56,9 @@ export default function Contact() {
 
       <div className="footer">
         <p>Designed & Built by Raghavender Reddy Lonka</p>
+        <a href="#home">
+          <img src={Logo} alt="Logo" className="logo" />
+        </a>
       </div>
     </div>
   )

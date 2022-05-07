@@ -1,5 +1,5 @@
 .logo {
-  width: 120px;
+  width: 7.8vw;
   cursor: pointer;
 }
 
@@ -25,4 +25,16 @@ nav ul li:hover {
   justify-content: space-between;
   align-items: center;
   padding: 0 2rem;
+}
+
+@media all and (max-width: 480px) {
+  nav {
+    display: none;
+  }
+  .logo {
+    width: 30%;
+  }
+  .navContainer {
+    padding: 0;
+  }
 }

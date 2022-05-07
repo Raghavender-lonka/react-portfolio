@@ -14,10 +14,11 @@ export default function Projects() {
         <h1>Some Things I've Built</h1>
       </div>
       <div className="projects">
-        <div className="project">
+        <div className="project covidTracker">
           <a
             href="https://raghavender-lonka-covid-19-tracker.netlify.app/"
             target="_blank"
+            rel="noreferrer"
           >
             <img
               src={CovidProjectImg}
@@ -44,19 +45,21 @@ export default function Projects() {
               <a
                 href="https://github.com/Raghavender-lonka/covid-19-tracker"
                 target="_blank"
+                rel="noreferrer"
               >
                 <i className="fa-brands fa-github"></i>
               </a>
               <a
                 href="https://raghavender-lonka-covid-19-tracker.netlify.app/"
                 target="_blank"
+                rel="noreferrer"
               >
                 <i className="fa-solid fa-link"></i>
               </a>
             </div>
           </div>
         </div>
-        <div className="project">
+        <div className="project movieFinder">
           <div className="projectDetails projectDetails2">
             <p className="featured">Featured Project</p>
             <h1 className="projectTitle">Movie Finder</h1>
@@ -76,12 +79,14 @@ export default function Projects() {
               <a
                 href="https://github.com/Raghavender-lonka/Movie-Finder"
                 target="_blank"
+                rel="noreferrer"
               >
                 <i className="fa-brands fa-github"></i>
               </a>
               <a
                 href="https://raghavender-lonka.github.io/Movie-Finder/"
                 target="_blank"
+                rel="noreferrer"
               >
                 <i className="fa-solid fa-link"></i>
               </a>
@@ -90,6 +95,7 @@ export default function Projects() {
           <a
             href="https://raghavender-lonka.github.io/Movie-Finder/"
             target="_blank"
+            rel="noreferrer"
           >
             <img
               src={MovieProjectImg}
@@ -98,8 +104,12 @@ export default function Projects() {
             />
           </a>
         </div>
-        <div className="project">
-          <a href="https://blog-raghu.netlify.app/" target="_blank">
+        <div className="project blog">
+          <a
+            href="https://blog-raghu.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img
               src={BlogProjectImg}
               alt="covid-19 tracker"
@@ -116,7 +126,7 @@ export default function Projects() {
             <div className="usedTechno">
               <p>React</p>
               <p>Css</p>
-              <p>React.Context API</p>
+              <p>Context API</p>
               <p>Git</p>
               <p>Netlify</p>
             </div>
@@ -124,7 +134,11 @@ export default function Projects() {
               <a href="https://github.com/Raghavender-lonka/blog-page">
                 <i className="fa-brands fa-github"></i>
               </a>
-              <a href="https://blog-raghu.netlify.app/" target="_blank">
+              <a
+                href="https://blog-raghu.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <i className="fa-solid fa-link"></i>
               </a>
             </div>
@@ -137,6 +151,7 @@ export default function Projects() {
               <a
                 href="https://raghavender-lonka.github.io/Todo/"
                 target="_blank"
+                rel="noreferrer"
               >
                 <img
                   src={TodoProjectImg}
@@ -158,6 +173,7 @@ export default function Projects() {
                 <a
                   href="https://raghavender-lonka.github.io/Todo/"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <i className="fa-solid fa-link"></i>
                 </a>
@@ -167,6 +183,7 @@ export default function Projects() {
               <a
                 href="https://raghavender-lonka.github.io/Digital_Clock2/"
                 target="_blank"
+                rel="noreferrer"
               >
                 <img
                   src={ClockProjectImg}
@@ -188,6 +205,7 @@ export default function Projects() {
                 <a
                   href="https://raghavender-lonka.github.io/Digital_Clock2/"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <i className="fa-solid fa-link"></i>
                 </a>
@@ -197,6 +215,7 @@ export default function Projects() {
               <a
                 href="https://raghavender-lonka.github.io/tip-calculator-app/"
                 target="_blank"
+                rel="noreferrer"
               >
                 <img
                   src={SplitProjectImg}
@@ -218,6 +237,7 @@ export default function Projects() {
                 <a
                   href="https://raghavender-lonka.github.io/tip-calculator-app/"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <i className="fa-solid fa-link"></i>
                 </a>
@@ -230,6 +250,7 @@ export default function Projects() {
             <a
               href="https://raghavender-lonka.github.io/Projects_Page/"
               target="_blank"
+              rel="noreferrer"
               className="otherProjectsPageLink"
             >
               here!
