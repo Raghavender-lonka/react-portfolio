@@ -1,6 +1,5 @@
 .aboutContainer {
   margin: 8%;
-  /* width: 100%; */
   height: 100%;
 }
 
@@ -28,4 +27,43 @@
   font-size: 50px;
   padding-bottom: 3%;
   color: #62f9d5;
+}
+
+.footerLogo2 {
+  position: relative;
+}
+
+.logo2 {
+  position: fixed;
+  bottom: 40px;
+  right: 10px;
+  z-index: 20;
+}
+
+.logo3 {
+  animation: movebtn 3s ease-in-out infinite;
+  transition: all 0.5s ease-in-out;
+}
+.logo3:hover {
+  animation: none;
+  /* background: #fff; */
+  /* color: #551B54; */
+}
+
+@keyframes movebtn {
+  0% {
+    transform: translateY(0px);
+  }
+  25% {
+    transform: translateY(10px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+  75% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
 }

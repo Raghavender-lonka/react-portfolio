@@ -15,11 +15,16 @@ export default function Projects() {
       </div>
       <div className="projects">
         <div className="project">
-          <img
-            src={CovidProjectImg}
-            alt="covid-19 tracker"
-            className="projectImg"
-          />
+          <a
+            href="https://raghavender-lonka-covid-19-tracker.netlify.app/"
+            target="_blank"
+          >
+            <img
+              src={CovidProjectImg}
+              alt="covid-19 tracker"
+              className="projectImg"
+            />
+          </a>
           <div className="projectDetails">
             <p className="featured">Featured Project</p>
             <h1 className="projectTitle">Covid-19 Tracker</h1>
@@ -36,8 +41,18 @@ export default function Projects() {
               <p>Netlify</p>
             </div>
             <div className="projectLinks">
-              <i className="fa-brands fa-github"></i>
-              <i className="fa-solid fa-link"></i>
+              <a
+                href="https://github.com/Raghavender-lonka/covid-19-tracker"
+                target="_blank"
+              >
+                <i className="fa-brands fa-github"></i>
+              </a>
+              <a
+                href="https://raghavender-lonka-covid-19-tracker.netlify.app/"
+                target="_blank"
+              >
+                <i className="fa-solid fa-link"></i>
+              </a>
             </div>
           </div>
         </div>
@@ -58,22 +73,39 @@ export default function Projects() {
               <p>Github</p>
             </div>
             <div className="projectLinks projectLinks2">
-              <i className="fa-brands fa-github"></i>
-              <i className="fa-solid fa-link"></i>
+              <a
+                href="https://github.com/Raghavender-lonka/Movie-Finder"
+                target="_blank"
+              >
+                <i className="fa-brands fa-github"></i>
+              </a>
+              <a
+                href="https://raghavender-lonka.github.io/Movie-Finder/"
+                target="_blank"
+              >
+                <i className="fa-solid fa-link"></i>
+              </a>
             </div>
           </div>
-          <img
-            src={MovieProjectImg}
-            alt="movie finder"
-            className="projectImg"
-          />
+          <a
+            href="https://raghavender-lonka.github.io/Movie-Finder/"
+            target="_blank"
+          >
+            <img
+              src={MovieProjectImg}
+              alt="movie finder"
+              className="projectImg"
+            />
+          </a>
         </div>
         <div className="project">
-          <img
-            src={BlogProjectImg}
-            alt="covid-19 tracker"
-            className="projectImg"
-          />
+          <a href="https://blog-raghu.netlify.app/" target="_blank">
+            <img
+              src={BlogProjectImg}
+              alt="covid-19 tracker"
+              className="projectImg"
+            />
+          </a>
           <div className="projectDetails">
             <p className="featured">Featured Project</p>
             <h1 className="projectTitle">Blog </h1>
@@ -89,8 +121,12 @@ export default function Projects() {
               <p>Netlify</p>
             </div>
             <div className="projectLinks">
-              <i className="fa-brands fa-github"></i>
-              <i className="fa-solid fa-link"></i>
+              <a href="https://github.com/Raghavender-lonka/blog-page">
+                <i className="fa-brands fa-github"></i>
+              </a>
+              <a href="https://blog-raghu.netlify.app/" target="_blank">
+                <i className="fa-solid fa-link"></i>
+              </a>
             </div>
           </div>
         </div>
@@ -98,11 +134,16 @@ export default function Projects() {
           <h1>Other Noteworthy Projects</h1>
           <div className="otherProjectsContainer">
             <div className="otherProject">
-              <img
-                src={TodoProjectImg}
-                alt="todo-list image"
-                className="otherProjectsImg"
-              />
+              <a
+                href="https://raghavender-lonka.github.io/Todo/"
+                target="_blank"
+              >
+                <img
+                  src={TodoProjectImg}
+                  alt="todo-list image"
+                  className="otherProjectsImg"
+                />
+              </a>
               <h2>Todo-List</h2>
               <p className="otherProjectInfo">
                 A Simple Todo-List, with clean UI and Moblie responsive
@@ -114,16 +155,25 @@ export default function Projects() {
                 <p>Github</p>
               </div>
               <div className="projectLinks">
-                <i className="fa-brands fa-github"></i>
-                <i className="fa-solid fa-link"></i>
+                <a
+                  href="https://raghavender-lonka.github.io/Todo/"
+                  target="_blank"
+                >
+                  <i className="fa-solid fa-link"></i>
+                </a>
               </div>
             </div>
             <div className="otherProject">
-              <img
-                src={ClockProjectImg}
-                alt="clock image"
-                className="otherProjectsImg"
-              />
+              <a
+                href="https://raghavender-lonka.github.io/Digital_Clock2/"
+                target="_blank"
+              >
+                <img
+                  src={ClockProjectImg}
+                  alt="clock image"
+                  className="otherProjectsImg"
+                />
+              </a>
               <h2>Digital CLock</h2>
               <p className="otherProjectInfo">
                 A Simple Digital Clock, with clean UI and Moblie responsive
@@ -135,16 +185,25 @@ export default function Projects() {
                 <p>Github</p>
               </div>
               <div className="projectLinks">
-                <i className="fa-brands fa-github"></i>
-                <i className="fa-solid fa-link"></i>
+                <a
+                  href="https://raghavender-lonka.github.io/Digital_Clock2/"
+                  target="_blank"
+                >
+                  <i className="fa-solid fa-link"></i>
+                </a>
               </div>
             </div>
             <div className="otherProject">
-              <img
-                src={SplitProjectImg}
-                alt="clock image"
-                className="otherProjectsImg"
-              />
+              <a
+                href="https://raghavender-lonka.github.io/tip-calculator-app/"
+                target="_blank"
+              >
+                <img
+                  src={SplitProjectImg}
+                  alt="clock image"
+                  className="otherProjectsImg"
+                />
+              </a>
               <h2>Tip Calculator</h2>
               <p className="otherProjectInfo">
                 A Simple Tip Calculator App, with clean UI and Moblie responsive
@@ -156,8 +215,12 @@ export default function Projects() {
                 <p>Github</p>
               </div>
               <div className="projectLinks">
-                <i className="fa-brands fa-github"></i>
-                <i className="fa-solid fa-link"></i>
+                <a
+                  href="https://raghavender-lonka.github.io/tip-calculator-app/"
+                  target="_blank"
+                >
+                  <i className="fa-solid fa-link"></i>
+                </a>
               </div>
             </div>
           </div>

@@ -1,8 +1,25 @@
-import React from "react"
+import React, { useState, useEffect } from "react"
 import "./About.css"
 import AboutImg from "../../assests/undraw_freelancer.svg"
+import Logo from "../../assests/R-logos/R-logos_white.png"
 
 export default function About() {
+  const [showTopBtn, setShowTopBtn] = useState(false)
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 400) {
+        setShowTopBtn(true)
+      } else {
+        setShowTopBtn(false)
+      }
+    })
+  }, [])
+  const goToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    })
+  }
   return (
     <div className="aboutContainer" id="about">
       <div className="aboutTitle">
@@ -61,6 +78,16 @@ export default function About() {
         </div>
 
         <img src={AboutImg} alt="About me" />
+      </div>
+      <div className="footerLogo2">
+        {showTopBtn && (
+          <img
+            src={Logo}
+            alt="Logo"
+            className="logo logo2 logo3"
+            onClick={goToTop}
+          />
+        )}
       </div>
     </div>
   )

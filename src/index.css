@@ -9,6 +9,9 @@ body {
   color: #c1cbea;
   font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
 }
+html {
+  overflow: visible;
+}
 
 /* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
