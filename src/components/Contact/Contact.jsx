@@ -32,6 +32,7 @@ export default function Contact() {
         <a
           href="https://www.linkedin.com/in/raghavender-reddy-lonka-a34491203/"
           target="_blank"
+          rel="noreferrer"
         >
           <i className="fa-brands fa-linkedin"></i>
         </a>
