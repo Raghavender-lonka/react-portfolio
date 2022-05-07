@@ -42,6 +42,7 @@ export default function Resume() {
             <a
               href="https://www.udemy.com/certificate/UC-1a613759-3f82-4377-b098-bbe1dee2e559/?ranMID=39197&ranEAID=rl2xnKiLcHs&ranSiteID=rl2xnKiLcHs-L4uS6S2.oePh4pQo5l6etQ&LSNPUBID=rl2xnKiLcHs&utm_source=aff-campaign&utm_medium=udemyads&"
               target="_blank"
+              rel="noreferrer"
             >
               Link Here
             </a>
@@ -52,6 +53,7 @@ export default function Resume() {
             <a
               href="https://www.freecodecamp.org/certification/Raghavender/responsive-web-design"
               target="_blank"
+              rel="noreferrer"
             >
               Link Here
             </a>
@@ -64,6 +66,7 @@ export default function Resume() {
             <a
               href="https://www.freecodecamp.org/certification/Raghavender/javascript-algorithms-and-data-structures"
               target="_blank"
+              rel="noreferrer"
             >
               Link Here
             </a>
@@ -74,6 +77,7 @@ export default function Resume() {
             <a
               href="https://www.linkedin.com/learning/certificates/afa9f4fa0553fcf83efd0a60fc4e32ff936bde27ef42bd06daee3eba5abeed3c?trk=share_certificate"
               target="_blank"
+              rel="noreferrer"
             >
               Link Here
             </a>
