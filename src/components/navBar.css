@@ -1,0 +1,21 @@
+.logo {
+  width: 120px;
+  cursor: pointer;
+}
+
+nav ul {
+  list-style: none;
+}
+
+li {
+  display: inline;
+  margin-right: 3rem;
+  font-size: 18px;
+}
+
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+}

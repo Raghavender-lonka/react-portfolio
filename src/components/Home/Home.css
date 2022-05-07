@@ -1,0 +1,35 @@
+.homeTextContainer {
+  margin: 5%;
+}
+
+.intro {
+  color: #62f9d5;
+  margin-bottom: 0;
+}
+
+.name {
+  color: #ccd6f6;
+  /* font-family: Calibre; */
+  font-size: 80px;
+  font-weight: 600;
+  line-height: 88px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.job {
+  color: #8892b0;
+  /* font-family: Calibre; */
+  font-size: 80px;
+  font-weight: 600;
+  line-height: 72px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.wave {
+  width: 100%;
+  height: 270px;
+  /* position: relative; */
+  /* bottom: 150px; */
+}
