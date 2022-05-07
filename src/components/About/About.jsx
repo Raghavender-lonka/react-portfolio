@@ -42,9 +42,7 @@ export default function About() {
             pixels, you'll find me reading fiction or playing solitaire
           </p>
           <div className="skillsContainer">
-            <h2>
-              Languages/Libraries/Technologies that i have hands-on experience
-            </h2>
+            <h2>Languages/Libraries that i have hands-on experience</h2>
             <ul className="skills">
               <li>
                 <i className="fa-brands fa-html5" title="Html5"></i>
