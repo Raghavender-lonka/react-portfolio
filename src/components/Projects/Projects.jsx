@@ -155,7 +155,7 @@ export default function Projects() {
               >
                 <img
                   src={TodoProjectImg}
-                  alt="todo-list image"
+                  alt="todo-list"
                   className="otherProjectsImg"
                 />
               </a>
@@ -187,7 +187,7 @@ export default function Projects() {
               >
                 <img
                   src={ClockProjectImg}
-                  alt="clock image"
+                  alt="clock"
                   className="otherProjectsImg"
                 />
               </a>
@@ -219,7 +219,7 @@ export default function Projects() {
               >
                 <img
                   src={SplitProjectImg}
-                  alt="clock image"
+                  alt="clock"
                   className="otherProjectsImg"
                 />
               </a>

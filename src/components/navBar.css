@@ -18,6 +18,16 @@ nav ul li:hover {
   /* border-bottom: 2px solid #62f9d5; */
 }
 
+/* .sideBar {
+  display: none;
+} */
+
+/* .side {
+  width: 100px;
+  position: fixed;
+  top: 10px;
+} */
+
 .navContainer {
   /* position: fixed;
   top: 5px; */
@@ -37,4 +47,18 @@ nav ul li:hover {
   .navContainer {
     padding: 0;
   }
+  /* .sideBar {
+    display: inline;
+    position: relative;
+    left: 50px;
+    top: 50px;
+  } */
+  /* .fa-align-left {
+    font-size: 24px;
+  }
+  .sideBarContent {
+    display: flex;
+    flex-direction: column;
+    transform: translate(100%);
+  } */
 }
