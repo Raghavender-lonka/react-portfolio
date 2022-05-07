@@ -24,10 +24,19 @@
   align-items: center;
   flex-wrap: wrap;
 }
+.covidTracker,
+.blog {
+  display: flex;
+  flex-direction: row;
+}
+.movieFinder {
+  flex-direction: row;
+}
 
 .projectDetails {
   text-align: right;
-  width: 100%;
+  /* width: 100%; */
+  width: 43%;
 }
 
 .usedTechno {
@@ -136,6 +145,7 @@
   .projectDetails,
   .projectDetails2 {
     text-align: center;
+    width: 100%;
   }
   .covidTracker,
   .blog {
@@ -143,7 +153,6 @@
   }
   .movieFinder {
     flex-direction: column-reverse;
-    /* background-color: #212f47; */
   }
   .projectInfo {
     background: none;
