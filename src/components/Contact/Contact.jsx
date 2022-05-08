@@ -57,9 +57,7 @@ export default function Contact() {
 
       <div className="footer">
         <p>Designed & Built by Raghavender Reddy Lonka</p>
-        <a href="#home">
-          <img src={Logo} alt="Logo" className="logo" />
-        </a>
+        <img src={Logo} alt="Logo" className="logo" />
       </div>
     </div>
   )

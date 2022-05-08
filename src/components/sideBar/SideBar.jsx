@@ -1,20 +1,109 @@
-import { slide as Menu } from "react-burger-menu"
-import React from "react"
-import Nav from "../../assests/R-logos/R-logos_black.png"
-import SideBarContent from "./SideBarContent"
+import * as React from "react"
+import Box from "@mui/material/Box"
+import Drawer from "@mui/material/Drawer"
+import Button from "@mui/material/Button"
+import List from "@mui/material/List"
+import Divider from "@mui/material/Divider"
+import ListItem from "@mui/material/ListItem"
+// import ListItemIcon from "@mui/material/ListItemIcon"
+import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos"
+import ListItemText from "@mui/material/ListItemText"
+import ResumePDF from "../../Resume_Updated.pdf"
+import { createTheme, ThemeProvider } from "@material-ui/core/styles"
+import { Typography } from "@material-ui/core"
 
-class Example extends React.Component {
-  showSettings(event) {
-    event.preventDefault()
+export default function TemporaryDrawer() {
+  const [state, setState] = React.useState({
+    top: false,
+    left: false,
+    bottom: false,
+    right: false,
+  })
+
+  const theme = createTheme({
+    typography: {
+      fontFamily: ["Space Mono", "Roboto", "Arial", "sans-serif"].join(","),
+    },
+  })
+
+  const toggleDrawer = (anchor, open) => (event) => {
+    if (
+      event.type === "keydown" &&
+      (event.key === "Tab" || event.key === "Shift")
+    ) {
+      return
+    }
+
+    setState({ ...state, [anchor]: open })
   }
-  // customBurgerIcon={<img src={Nav} />}
-  render() {
-    return (
-      <Menu customBurgerIcon={<img src={Nav} alt="Nav" />}>
-        <SideBarContent />
-      </Menu>
-    )
-  }
+
+  const list = (anchor) => (
+    <Box
+      sx={{
+        width: anchor === "top" || anchor === "bottom" ? "auto" : 250,
+        height: "100vh",
+        backgroundColor: "#112240",
+        color: "#62f9d5",
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        justifyContent: "center",
+        fontFamily: "SF Mono",
+      }}
+      role="presentation"
+      onClick={toggleDrawer(anchor, false)}
+      onKeyDown={toggleDrawer(anchor, false)}
+    >
+      <List>
+        {[
+          <a href="#home">Home</a>,
+          <a href="#about">About</a>,
+          <a href="#projects">Projects</a>,
+          <a href="#resume">Resume</a>,
+          <a href="#contact">Contact</a>,
+        ].map((text) => (
+          <ListItem button key={Math.random()}>
+            <ListItemText primary={text} sx={{ fontFamily: "SF Mono" }} />
+          </ListItem>
+        ))}
+      </List>
+      <Divider />
+      <List>
+        {[
+          <button className="resumeBtn sideResumeBtn">
+            <a href={ResumePDF}>Download My Resume</a>
+          </button>,
+        ].map((text) => (
+          <ListItem button key={Math.random()}>
+            <ListItemText primary={text} />
+          </ListItem>
+        ))}
+      </List>
+    </Box>
+  )
+
+  return (
+    <div>
+      <ThemeProvider theme={theme}>
+        {/* <Typography variant="h3">hello world</Typography> */}
+        <Typography>
+          {["right"].map((anchor) => (
+            <React.Fragment key={Math.random()}>
+              <Button onClick={toggleDrawer(anchor, true)}>
+                <ArrowBackIosIcon sx={{ color: "white", fontSize: 30 }} />
+              </Button>
+
+              <Drawer
+                anchor={anchor}
+                open={state[anchor]}
+                onClose={toggleDrawer(anchor, false)}
+              >
+                {list(anchor)}
+              </Drawer>
+            </React.Fragment>
+          ))}
+        </Typography>
+      </ThemeProvider>
+    </div>
+  )
 }
-
-export default Example

@@ -74,6 +74,10 @@
 }
 
 @media all and (max-width: 480px) {
+  .aboutContainer {
+    margin-top: 30%;
+  }
+
   .aboutContent {
     line-height: 24px;
     width: 100%;

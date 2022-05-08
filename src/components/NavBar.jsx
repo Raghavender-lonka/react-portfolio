@@ -1,25 +1,29 @@
-import React from "react"
-// import SideBarComp from "./sideBar/SideBar"
+import React, { useState, useEffect } from "react"
+import TemporaryDrawer from "./sideBar/SideBar"
 import Logo from "../assests/R-logos/R-logos_white.png"
 import "./navBar.css"
-// import Example from "./sideBar/SideBar"
 
 export default function NavBar() {
-  // const [showSideBar, setShowSideBar] = useState(false)
+  const [showSideBar, setShowSideBar] = useState(false)
 
-  // useEffect(() => {
-  //   if (window.innerWidth < 480) {
-  //     setShowSideBar(true)
-  //     // console.log(window.innerWidth)
-  //   }
-  // }, [])
+  useEffect(() => {
+    const show = () => {
+      // console.log("yes")
+      if (window.innerWidth < 480) {
+        setShowSideBar(true)
+      } else {
+        setShowSideBar(false)
+      }
+    }
+    window.addEventListener("resize", show)
+    return () => window.removeEventListener("resize", show)
+  }, [])
 
   return (
     <div className="navContainer">
-      <img src={Logo} alt="Logo" className="logo" id="home" />
-      {/* <div className="side">
-        <Example />
-      </div> */}
+      <img src={Logo} alt="Logo" className="logo" />
+
+      {showSideBar && <TemporaryDrawer />}
       <nav>
         <ul>
           <li>

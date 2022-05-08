@@ -18,19 +18,7 @@ nav ul li:hover {
   /* border-bottom: 2px solid #62f9d5; */
 }
 
-/* .sideBar {
-  display: none;
-} */
-
-/* .side {
-  width: 100px;
-  position: fixed;
-  top: 10px;
-} */
-
 .navContainer {
-  /* position: fixed;
-  top: 5px; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -42,23 +30,11 @@ nav ul li:hover {
     display: none;
   }
   .logo {
-    width: 30%;
+    width: 25%;
   }
   .navContainer {
     padding: 0;
+    position: fixed;
+    background-color: #0a1d38db;
   }
-  /* .sideBar {
-    display: inline;
-    position: relative;
-    left: 50px;
-    top: 50px;
-  } */
-  /* .fa-align-left {
-    font-size: 24px;
-  }
-  .sideBarContent {
-    display: flex;
-    flex-direction: column;
-    transform: translate(100%);
-  } */
 }
