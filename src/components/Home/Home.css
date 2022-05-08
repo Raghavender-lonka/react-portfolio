@@ -49,9 +49,9 @@
     /* justify-content: center; */
     /* align-items: center; */
   }
-  /* .homeTextContainer {
-    padding-top: 5%;
-  } */
+  .homeTextContainer {
+    margin-top: 0;
+  }
 
   .name {
     font-size: 40px;
