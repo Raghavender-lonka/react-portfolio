@@ -13,7 +13,7 @@ html {
   overflow: visible;
 }
 
-@media all and (min-width: 480px) {
+@media all and (min-width: 560px) {
   /* width */
   ::-webkit-scrollbar {
     width: 10px;

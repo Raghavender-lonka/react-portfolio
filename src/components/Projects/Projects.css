@@ -128,7 +128,7 @@
   text-decoration: underline;
 }
 
-@media all and (max-width: 480px) {
+@media all and (max-width: 560px) {
   .projectImg {
     /* z-index: -1; */
     width: 100%;

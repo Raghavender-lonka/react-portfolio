@@ -9,7 +9,7 @@ export default function NavBar() {
   useEffect(() => {
     const show = () => {
       // console.log("yes")
-      if (window.innerWidth < 480) {
+      if (window.innerWidth < 560) {
         setShowSideBar(true)
       } else {
         setShowSideBar(false)
