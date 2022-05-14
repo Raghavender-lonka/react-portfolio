@@ -1,4 +1,5 @@
 import * as React from "react"
+
 import Box from "@mui/material/Box"
 import Drawer from "@mui/material/Drawer"
 import Button from "@mui/material/Button"
@@ -8,7 +9,9 @@ import ListItem from "@mui/material/ListItem"
 // import ListItemIcon from "@mui/material/ListItemIcon"
 import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos"
 import ListItemText from "@mui/material/ListItemText"
-import ResumePDF from "../../Resume_Updated.pdf"
+
+import ResumePDF from "../../Resume.pdf"
+
 import { createTheme, ThemeProvider } from "@material-ui/core/styles"
 import { Typography } from "@material-ui/core"
 

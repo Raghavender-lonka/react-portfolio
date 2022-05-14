@@ -1,6 +1,6 @@
 import React from "react"
 import "./Resume.css"
-import ResumePDF from "../../Resume_Updated.pdf"
+import ResumePDF from "../../Resume.pdf"
 
 export default function Resume() {
   return (
