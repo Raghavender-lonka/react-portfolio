@@ -14,43 +14,44 @@ export default function Projects() {
         <h1>Some Things I've Built</h1>
       </div>
       <div className="projects">
-        <div className="project covidTracker">
+        <div className="project blog">
           <a
-            href="https://raghavender-lonka-covid-19-tracker.netlify.app/"
+            href="https://blog-raghus.netlify.app/"
             target="_blank"
             rel="noreferrer"
           >
             <img
-              src={CovidProjectImg}
+              src={BlogProjectImg}
               alt="covid-19 tracker"
               className="projectImg"
             />
           </a>
           <div className="projectDetails">
             <p className="featured">Featured Project</p>
-            <h1 className="projectTitle">Covid-19 Tracker</h1>
+            <h1 className="projectTitle">Blog </h1>
             <p className="projectInfo">
-              A Live Covid-19 Tracker, showing cases of countries wide, and
-              states/provinces wide list, I have done this project using
-              diseases.sh API
+              Blog / News Updates, showing news updates of world wide, and
+              states wide list, I have done this project using API I've have
+              using Node.Js
             </p>
             <div className="usedTechno">
               <p>React</p>
               <p>Css</p>
-              <p>API</p>
+              <p>Node.Js</p>
               <p>Git</p>
               <p>Netlify</p>
+              <p>Heroku</p>
             </div>
             <div className="projectLinks">
               <a
-                href="https://github.com/Raghavender-lonka/covid-19-tracker"
+                href="https://github.com/Raghavender-lonka/blog-page/tree/back-end"
                 target="_blank"
                 rel="noreferrer"
               >
                 <i className="fa-brands fa-github"></i>
               </a>
               <a
-                href="https://raghavender-lonka-covid-19-tracker.netlify.app/"
+                href="https://blog-raghus.netlify.app/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -59,6 +60,7 @@ export default function Projects() {
             </div>
           </div>
         </div>
+
         <div className="project movieFinder">
           <div className="projectDetails projectDetails2">
             <p className="featured">Featured Project</p>
@@ -104,38 +106,43 @@ export default function Projects() {
             />
           </a>
         </div>
-        <div className="project blog">
+        <div className="project covidTracker">
           <a
-            href="https://blog-raghu.netlify.app/"
+            href="https://raghavender-lonka-covid-19-tracker.netlify.app/"
             target="_blank"
             rel="noreferrer"
           >
             <img
-              src={BlogProjectImg}
+              src={CovidProjectImg}
               alt="covid-19 tracker"
               className="projectImg"
             />
           </a>
           <div className="projectDetails">
             <p className="featured">Featured Project</p>
-            <h1 className="projectTitle">Blog </h1>
+            <h1 className="projectTitle">Covid-19 Tracker</h1>
             <p className="projectInfo">
-              Blog / News Updates, showing news updates of world wide, and
-              states wide list, I have done this project using React.Context API
+              A Live Covid-19 Tracker, showing cases of countries wide, and
+              states/provinces wide list, I have done this project using
+              diseases.sh API
             </p>
             <div className="usedTechno">
               <p>React</p>
               <p>Css</p>
-              <p>Context API</p>
+              <p>API</p>
               <p>Git</p>
               <p>Netlify</p>
             </div>
             <div className="projectLinks">
-              <a href="https://github.com/Raghavender-lonka/blog-page">
+              <a
+                href="https://github.com/Raghavender-lonka/covid-19-tracker"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <i className="fa-brands fa-github"></i>
               </a>
               <a
-                href="https://blog-raghu.netlify.app/"
+                href="https://raghavender-lonka-covid-19-tracker.netlify.app/"
                 target="_blank"
                 rel="noreferrer"
               >
