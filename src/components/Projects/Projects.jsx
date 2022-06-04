@@ -30,9 +30,9 @@ export default function Projects() {
             <p className="featured">Featured Project</p>
             <h1 className="projectTitle">Blog </h1>
             <p className="projectInfo">
-              Blog / News Updates, showing news updates of world wide, and
-              states wide list, I have done this project using API I've have
-              using Node.Js
+              Blog Project, Showing news articles about different topics like
+              tech, cinema, && others. In this project for Frontend I've used
+              React.JS and for Backend I've used Node.Js
             </p>
             <div className="usedTechno">
               <p>React</p>
