@@ -58,7 +58,7 @@ export default function Resume() {
               Link Here
             </a>
           </div>
-          <div>
+          {/* <div>
             <h3>
               JavaScript Algorithms and Data Structures - freeCodeCamp.org
             </h3>
@@ -81,7 +81,7 @@ export default function Resume() {
             >
               Link Here
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
