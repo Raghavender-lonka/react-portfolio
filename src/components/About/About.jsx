@@ -28,18 +28,18 @@ export default function About() {
       <div className="abountContentContainer">
         <div className="aboutContent">
           <p>
-            Hello there, I'm Raghavender Reddy Lonka. I am Aspiring full stack
-            mern developer. I had graduated in civil engineering in 2020, At
-            first i thought to became a civil engineer, but during COVID-19
-            pandemic, I got interested in web development as i saw myself
-            more-satisfied in working for web development, So I decided to learn
-            Web Development from scratch.
+            Hello there, I'm Raghavender Reddy Lonka. I am Junior Software
+            Engineer@Cloudeq. I had graduated in Btech in 2020, I joined
+            <a href="https://cloudeq.com/">Cloudeq</a> in August 2022, Here I
+            was trained and successful gained knowledge on technologies like
+            AWS, Azure, Terraform, Docker, Kubernetes, Github Actions, Python,
+            New Relic
           </p>
           <p>
-            Fast-forward to today, I am currently learning MonogoDB. As I was
-            learing web i was enjoying turning complex problems into simple,
-            beautiful and intuitive designs. When I'm not pushing pixels, you'll
-            find me reading fiction or playing solitaire
+            Fast-forward to today, As I was learing web i was enjoying turning
+            complex problems into simple, beautiful and intuitive designs. When
+            I'm not pushing pixels, you'll find me reading fiction or playing
+            solitaire
           </p>
           <div className="skillsContainer">
             <h2>Languages/Libraries that i have hands-on experience</h2>
