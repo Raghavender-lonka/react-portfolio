@@ -30,7 +30,7 @@ export default function About() {
           <p>
             Hello there, I'm Raghavender Reddy Lonka. I am Junior Software
             Engineer@Cloudeq. I had graduated in Btech in 2020, I joined
-            <a href="https://cloudeq.com/">Cloudeq</a> in August 2022, Here I
+            <a href="https://cloudeq.com/"> Cloudeq</a> in August 2022, Here I
             was trained and successful gained knowledge on technologies like
             AWS, Azure, Terraform, Docker, Kubernetes, Github Actions, Python,
             New Relic
