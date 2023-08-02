@@ -29,18 +29,14 @@ export default function About() {
         <div className="aboutContent">
           <p>
             Hello there, I'm Raghavender Reddy Lonka. I am Junior Software
-            Engineer@Cloudeq. I had graduated in Btech in 2020, I joined
-            <a href="https://cloudeq.com/"> Cloudeq</a> in August 2022, Here I
-            was trained and successful gained knowledge on technologies like
-            AWS, Azure, Terraform, Docker, Kubernetes, Github Actions, Python,
-            New Relic
+            Engineer@Cloudeq. I had joined <a href="https://cloudeq.com/"> Cloudeq</a> in August 2022, Here I got to work on technologies like AWS, Azure, Terraform, Docker, Kubernetes, Github Actions, Python, New Relic
           </p>
-          <p>
+          {/* <p>
             Fast-forward to today, As I was learing web i was enjoying turning
             complex problems into simple, beautiful and intuitive designs. When
             I'm not pushing pixels, you'll find me reading fiction or playing
             solitaire
-          </p>
+          </p> */}
           <div className="skillsContainer">
             <h2>Languages/Libraries that i have hands-on experience</h2>
             <ul className="skills">
