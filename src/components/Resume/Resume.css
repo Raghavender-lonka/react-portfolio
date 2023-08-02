@@ -47,6 +47,10 @@
   text-decoration: underline;
 }
 
+.certificatesContainer div h3 {
+  margin-top: 0;
+}
+
 @media all and (max-width: 560px) {
   .certificatesContainer div {
     width: 100%;
