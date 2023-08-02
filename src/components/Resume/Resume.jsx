@@ -35,6 +35,82 @@ export default function Resume() {
         <h2 className="certificatesHead">Certifications:</h2>
         <div className="certificatesContainer">
           <div>
+            <h3>Microsoft Certified: Azure Administrator Associate</h3>
+            <p>Completed on: April 2023</p>
+            <a
+              href="https://www.credly.com/badges/f118a181-99d4-41a3-97dc-5a1f2468fb04/public_url"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Link Here
+            </a>
+          </div>
+
+          <div>
+            <h3>Microsoft Certified: Azure Fundamentals</h3>
+            <p>Completed on: February 2023</p>
+            <a
+              href="https://www.credly.com/badges/963db664-5948-40fd-9b5e-408183ec3c15/public_url"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Link Here
+            </a>
+          </div>
+
+          <div>
+            <h3>Microsoft Certified: Azure Data Fundamentals</h3>
+            <p>Completed on: April 2023</p>
+            <a
+              href="https://www.credly.com/badges/0155163e-b662-4b9d-9e47-2338e4b36552/public_url"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Link Here
+            </a>
+          </div>
+
+          <div>
+            <h3>
+              Microsoft Certified: Security, Compliance, and Identity
+              Fundamentals
+            </h3>
+            <p>Completed on: June 2023</p>
+            <a
+              href="https://www.credly.com/badges/8d88ea63-33d5-429f-a7a1-4f3abd94ea42/public_url"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Link Here
+            </a>
+          </div>
+
+          <div>
+            <h3>AWS Certified Cloud Practitioner</h3>
+            <p>Completed on: March 2023</p>
+            <a
+              href="https://www.credly.com/badges/477d086e-2330-4a2b-abc7-e24ef1e15794/public_url"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Link Here
+            </a>
+          </div>
+
+          <div>
+            <h3>Docker Essentials: A Developer Introduction</h3>
+            <p>Completed on: April 2023</p>
+            <a
+              href="https://www.credly.com/badges/089fe409-de75-4056-b0fb-7182bab4bb06/public_url"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Link Here
+            </a>
+          </div>
+
+          {/*  */}
+          <div>
             <h3>
               React - The Complete Guide (incl Hooks, React Router, Redux)
             </h3>
