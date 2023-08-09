@@ -41,6 +41,18 @@ export default function About() {
             <h2>Languages/Libraries that i have hands-on experience</h2>
             <ul className="skills">
               <li>
+                <i className="fa-brands fa-docker" title="Docker"></i>
+              </li>
+              <li>
+                <i className="fa-brands fa-aws" title="Amazon Web Services"></i>
+              </li>
+              <li>
+                <i className="fa-brands fa-github" title="GitHub Actions"></i>
+              </li>
+              <li>
+                <i className="fa-brands fa-linux" title="Linux"></i>
+              </li>
+              <li>
                 <i className="fa-brands fa-html5" title="Html5"></i>
               </li>
               <li>
@@ -49,21 +61,19 @@ export default function About() {
               <li>
                 <i className="fa-brands fa-js" title="Javascript"></i>
               </li>
-              <li>
-                <i className="fa-brands fa-git-alt" title="Git"></i>
-              </li>
+              
               <li>
                 <i className="fa-brands fa-react" title="ReactJs"></i>
               </li>
               <li>
                 <i class="fa-brands fa-node" title="NodeJs"></i>
               </li>
-              <li>
+              {/* <li>
                 <i className="fa-brands fa-github" title="Github"></i>
               </li>
               <li>
                 <i className="fa-brands fa-bootstrap" title="Bootstrap"></i>
-              </li>
+              </li> */}
               {/* <li>
                 <i className="fa-brands fa-markdown" title="Markdown"></i>
               </li> */}
