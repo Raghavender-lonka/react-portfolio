@@ -28,8 +28,7 @@ export default function About() {
       <div className="abountContentContainer">
         <div className="aboutContent">
           <p>
-            Hello there, I'm Raghavender Reddy Lonka. I am Junior Software
-            Engineer@Cloudeq. I had joined <a href="https://cloudeq.com/"> Cloudeq</a> in August 2022, Here I got to work on technologies like AWS, Azure, Terraform, Docker, Kubernetes, Github Actions, Python, New Relic
+            Hello there, I'm Raghavender Reddy Lonka. Dynamic and results-driven Software Engineer with 1.6+ Years of Experience @<a href="https://cloudeq.com/"> Cloudeq</a> and having strong background in cloud technologies, DevOps practices, and infrastructure monitoring. Adept at collaborating with cross-functional teams, ensuring streamlined resource creation, and optimizing system performance for diverse applications.
           </p>
           {/* <p>
             Fast-forward to today, As I was learing web i was enjoying turning

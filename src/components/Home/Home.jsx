@@ -9,7 +9,7 @@ export default function Home() {
       <div className="homeTextContainer">
         <h4 className="intro">Hello there, my name is</h4>
         <h1 className="name">Raghavender Reddy Lonka.</h1>
-        <h2 className="job">Junior Software Engineer.</h2>
+        <h2 className="job">Software Engineer I.</h2>
         <img src={Hi} alt="profile" className="profile" />
       </div>
       <img src={Wave} alt="wave" className="wave" />
